@@ -1,0 +1,25 @@
+# 秘密情報・ローカル設定は絶対にコミットしない
+.env
+.env.*
+*.pem
+*.key
+config.json
+tokens*.json
+*secret*
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+*.zip
+*.log
+
+# Runtime credentials, caches and source backups
+state/
+*.dpapi
+*.bak*
+*.index
+.coverage
+htmlcov/

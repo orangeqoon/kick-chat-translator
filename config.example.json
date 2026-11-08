@@ -1,0 +1,22 @@
+{
+  "channel_slug": "your-channel",
+  "client_id": "",
+  "redirect_uri": "http://localhost:3000/oauth2callback",
+  "webhook_host": "127.0.0.1",
+  "webhook_port": 8081,
+  "webhook_path": "/kick/webhook",
+  "live_posting": false,
+  "receive_events": false,
+  "receive_method": "websocket",
+  "home_lang": "ja",
+  "foreign_lang": "en",
+  "trans_to_home_only": false,
+  "output_prefix": "[TR]",
+  "show_author": true,
+  "skip_users": [],
+  "skip_languages": [],
+  "skip_commands": true,
+  "min_post_interval_sec": 1.5,
+  "max_queue": 50,
+  "max_event_age_sec": 300
+}

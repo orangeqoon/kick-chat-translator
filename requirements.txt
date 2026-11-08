@@ -1,0 +1,4 @@
+aiohttp>=3.9
+cryptography>=42
+regex>=2023.0
+keyring>=24
