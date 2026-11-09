@@ -67,6 +67,8 @@ DPAPIの認証ファイルは同じWindowsユーザーでのみ復号できま�
 Windows実機で受信→Google英訳→公式APIで返信→自分の投稿の除外まで確認済みです。長時間運用や実通信障害後の耐久試験は未実施です。Linux/macOSでの投稿認証はサポートしません。
 バグ報告にはOS・Pythonバージョン・再現手順と、秘密情報を除いたエラー種別を添えてIssueを作成してください。
 
+運用担当者向けの公開版引継書は [docs/HANDOFF_PUBLIC_RELEASE.md](docs/HANDOFF_PUBLIC_RELEASE.md) を参照してください。
+
 ## License / Acknowledgement
 
 MIT License。操作設計の参考: [sayonari/twitchTransFreeNeo](https://github.com/sayonari/twitchTransFreeNeo)。このアプリは独立実装で、参考リポジトリのコード・画像・配布物を同梱していません。KickまたはGoogleの公式製品ではありません。
